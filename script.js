@@ -2,12 +2,12 @@ function compute()
 
 {
     var principal = document.getElementById("principal").value;
-    var rate = document.getElementById("rate").value;
+    var rate = document.getElementById("rate").value; /* created a variable to accept the rate at which the investment is made */
     var years = document.getElementById("year").value;
 
     var interest = principal * years * rate / 100;
 
-    var year = new Date().getFullYear() + parseInt(years);
+    var year = new Date().getFullYear() + parseInt(years); /*date of maturity of investment in actual years*/
     p = document.getElementById("principal").value;
 
 }
