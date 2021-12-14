@@ -16,5 +16,6 @@ function compute()
 function updateRate() {
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText = rateval;
+    document.getElementById("result").innerHTML = "If you deposit " + principal + ", <br> at interest rate of " + rate + "% <br> you will receive an amount of " + amount + ", <br></br> in the year " + year + "<br>"
 }
 /*Got to question 8 in javascript*/
